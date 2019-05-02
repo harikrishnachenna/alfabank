@@ -1,0 +1,17 @@
+package com.parameters;
+
+import org.openqa.selenium.WebDriver;
+
+public class ParameterTest {
+	
+	WebDriver driver=null;
+	String url="http://login.yahoo.com";
+	@Test
+	public void YahooLoginTest() {
+	System.setProperty("webdriver.chrome.driver", "./Driverfilles/chromedriver.exe");
+	driver=new chromedriver();
+	driver.get(url);
+		
+	}
+
+}

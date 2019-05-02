@@ -1,0 +1,23 @@
+package com.TestNG;
+
+import org.testng.annotations.Test;
+
+public class Day3 {
+
+	@Test
+	public void MobileLOginCarLoan() {
+
+		System.out.println();
+	}
+	
+	@Test
+	public void MobileLoginCArLoan() {
+		System.out.println();
+	}
+	
+	@Test
+	public void LoginAPICarLoan() {
+		
+	}
+	
+}

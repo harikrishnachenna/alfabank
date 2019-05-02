@@ -1,0 +1,17 @@
+package com.TestNG_Rahulsharma;
+
+public class Day3_Test_enable{
+	
+	public void Mobilesignincarloan() {
+		System.out.println("Mobile sign in ");
+	}
+
+	public void Mobilesinoutcarloan() {
+		System.out.println("Moble sign out");
+	}
+	
+	public void APIcarloan() {
+		System.out.println("API Login car");
+	}
+	
+}

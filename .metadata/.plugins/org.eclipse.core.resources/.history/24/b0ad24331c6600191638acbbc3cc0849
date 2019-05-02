@@ -1,0 +1,50 @@
+package com.Excel_Read_Operations;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+public class Excel_Multipledata_ReadOperation {
+
+	public static void main(String[] args) throws IOException {
+		
+FileInputStream file=new FileInputStream("./src/com/ExcelTestDataFiles/Excel_multipledata_readoperation.xlsx");
+
+XSSFWorkbook workbook=new XSSFWorkbook(file);
+
+XSSFSheet sheet=workbook.getSheet("sheet1");
+
+  int rowcount=sheet.getLastRowNum();//identify the active rows of sheet
+ 
+  for(int i=0;i<rowcount;i++) {
+	  
+	  Row r=sheet.getRow(i);
+	  
+  int cellcount =r.getLastCellNum();//idenitify the active cells of a sheet
+	
+  for(int j=0;j<cellcount;j++) {
+	  
+	Cell c =r.getCell(j);
+	
+	 String data=c.getStringCellValue();
+	 System.out.print(data+" ");
+	  
+        }
+	  System.out.println( );
+    }
+  
+  
+	  
+  }
+		
+		
+		
+		
+	}
+
+}

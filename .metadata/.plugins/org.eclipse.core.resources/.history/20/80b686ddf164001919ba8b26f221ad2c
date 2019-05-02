@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="personal loan">
+    <classes>
+      <class name="com.TestNG_Rahulsharma.day2"/>
+      <class name="com.TestNG_Rahulsharma.Day4"/>
+      <class name="com.TestNG_Rahulsharma.Day1"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+  
+    
+   
+
+ 
+ </suite>
+
+

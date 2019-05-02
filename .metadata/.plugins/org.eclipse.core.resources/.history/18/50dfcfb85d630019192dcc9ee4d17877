@@ -1,0 +1,21 @@
+package com.Annotations;
+
+import org.openqa.selenium.WebDriver;
+
+public class GoogleTest {
+	
+	WebDriver  driver=null;
+	String url="http:google.com";
+	
+	
+	@BeforeMethod(){
+		
+		System.setProperty("", "");
+		
+		
+		
+	}
+	
+	
+
+}

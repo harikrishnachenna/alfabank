@@ -1,0 +1,5 @@
+ <test thread-count="5" name="homeloan">
+    <classes>
+      <class name="com.TestNG_Rahulsharma.Day4"/>
+    </classes>
+  </test> 

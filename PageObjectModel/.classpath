@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Users/User/Desktop/SeleniumHari/AutomationTesting/library/commons-codec-1.10 - Copy"/>
+	<classpathentry kind="lib" path="C:/Users/User/Desktop/SeleniumHari/AutomationTesting/library/commons-codec-1.10"/>
+	<classpathentry kind="lib" path="C:/Users/User/Desktop/SeleniumHari/AutomationTesting/library/commons-collections4-4.1 - Copy"/>
+	<classpathentry kind="lib" path="C:/Users/User/Desktop/SeleniumHari/AutomationTesting/library/commons-collections4-4.1"/>
+	<classpathentry kind="lib" path="C:/Users/User/Desktop/SeleniumHari/AutomationTesting/library/commons-logging-1.2 - Copy"/>
+	<classpathentry kind="lib" path="C:/Users/User/Desktop/SeleniumHari/AutomationTesting/library/commons-logging-1.2"/>
+	<classpathentry kind="lib" path="C:/Users/User/Desktop/SeleniumHari/AutomationTesting/library/curvesapi-1.04 - Copy"/>
+	<classpathentry kind="lib" path="C:/Users/User/Desktop/SeleniumHari/AutomationTesting/library/curvesapi-1.04"/>
+	<classpathentry kind="lib" path="C:/Users/User/Desktop/SeleniumHari/AutomationTesting/library/junit-4.12 - Copy"/>
+	<classpathentry kind="lib" path="C:/Users/User/Desktop/SeleniumHari/AutomationTesting/library/junit-4.12"/>
+	<classpathentry kind="lib" path="C:/Users/User/Desktop/SeleniumHari/AutomationTesting/library/poi-3.15 - Copy"/>
+	<classpathentry kind="lib" path="C:/Users/User/Desktop/SeleniumHari/AutomationTesting/library/poi-3.15"/>
+	<classpathentry kind="lib" path="C:/Users/User/Desktop/SeleniumHari/AutomationTesting/library/poi-examples-3.15 - Copy"/>
+	<classpathentry kind="lib" path="C:/Users/User/Desktop/SeleniumHari/AutomationTesting/library/poi-examples-3.15"/>
+	<classpathentry kind="lib" path="C:/Users/User/Desktop/SeleniumHari/AutomationTesting/library/poi-excelant-3.15"/>
+	<classpathentry kind="lib" path="C:/Users/User/Desktop/SeleniumHari/AutomationTesting/library/poi-ooxml-3.15"/>
+	<classpathentry kind="lib" path="C:/Users/User/Desktop/SeleniumHari/AutomationTesting/library/poi-ooxml-schemas-3.15"/>
+	<classpathentry kind="lib" path="C:/Users/User/Desktop/SeleniumHari/AutomationTesting/library/poi-scratchpad-3.15"/>
+	<classpathentry kind="lib" path="C:/Users/User/Desktop/SeleniumHari/AutomationTesting/library/selenium-server-standalone-3.9.1"/>
+	<classpathentry kind="lib" path="C:/Users/User/Desktop/SeleniumHari/AutomationTesting/library/xmlbeans-2.6.0"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

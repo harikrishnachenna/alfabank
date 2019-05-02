@@ -1,0 +1,10 @@
+package com.TestNG_Rahulsharma;
+
+public class day2 {
+	
+	@Test
+	public void personalloan() {
+		System.out.println("good");
+	}
+
+}

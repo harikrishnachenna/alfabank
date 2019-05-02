@@ -1,0 +1,13 @@
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Demo {
+
+	public static void main(String[] args) {
+		System.setProperty("webdriver.chrome.driver", "./Driverfiles/chromedriver.exe");
+		
+		ChromeDriver dr=new ChromeDriver();
+		dr.get("http://google.com");
+		dr.navigate().to("http://totaljobs.com");
+
+    }
+}

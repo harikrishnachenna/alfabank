@@ -1,0 +1,33 @@
+package com.getAtribute;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class NewTours_Register_getreferenceURL {
+
+	public static void main(String[] args) {
+		 
+		WebDriver driver=null;
+		String url="http://Newtours.demoaut.com";
+		
+		System.setProperty("webdriver.chrome.driver", "./driverfiles/chromedriver.exe");
+		driver =new ChromeDriver();
+		driver.get(url);
+		
+		WebElement Register=driver.findElement(By.linkText("REGISTER"));
+		String expected_url=Register.getAttribute("href");
+		System.out.println("The expected url of the Register webelement"+expected_url);
+		
+		String actual_url=driver.getCurrentUrl();
+	    System.out.println("The actual url of the Register webelement"+actual_url);
+		  if(actual_url.contains(expected_url)){
+			 System.out.println("Element found ---pass");
+		   }
+		  
+		  else{
+				System.out.println("Element not found---fail");
+			}
+	}
+} 

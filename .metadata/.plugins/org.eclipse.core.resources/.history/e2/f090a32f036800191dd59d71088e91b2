@@ -1,0 +1,17 @@
+package com.Annotations;
+
+import org.testng.annotations.Test;
+
+public class InvocationCount_Test {
+	
+    @Test(invocationCount=15)
+	public void Invocation_count() {
+	
+		int a=10;
+	    int b=20;
+	    int c=a+b;
+	
+	    System.out.println("The sum :"+c);
+	}
+
+}

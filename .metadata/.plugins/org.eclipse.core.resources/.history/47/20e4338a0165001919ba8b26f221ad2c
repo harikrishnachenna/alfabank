@@ -1,0 +1,21 @@
+package com.TestNG_Rahulsharm
+
+public class Day5 {
+	
+	@beforetest
+	public void firstexecution() {
+		System.out.println("I will execute first");
+	}
+
+	
+	@test
+	public void firstTestcase() {
+		System.out.println("Test case :1");
+	}
+	
+	@ Aftertest
+	public void Lastexecution() {
+		System.out.println("I will execute last");
+	}
+	
+}

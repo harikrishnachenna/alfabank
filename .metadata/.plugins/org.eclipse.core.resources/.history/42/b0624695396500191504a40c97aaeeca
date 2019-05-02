@@ -1,0 +1,21 @@
+package com.TestNG_Rahulsharma;
+
+import org.testng.annotations.Test;
+
+public class Day3_Test_enable{
+	@Test
+	public void Mobilesignincarloan() {
+		System.out.println("Mobile sign in ");
+	}
+
+	@Test
+	public void Mobilesinoutcarloan() {
+		System.out.println("Moble sign out");
+	}
+	
+	@Test
+	public void APIcarloan() {
+		System.out.println("API Login car");
+	}
+	
+}

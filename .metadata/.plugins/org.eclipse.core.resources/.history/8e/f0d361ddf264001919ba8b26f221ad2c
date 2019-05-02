@@ -1,0 +1,11 @@
+package com.TestNG_Rahulsharma;
+
+public class Bikeloan {
+	
+
+	@Test
+	public void Bikemonthlyinstalment() {
+		System.out.println("Bike Monthly Installment");
+	}
+
+}

@@ -1,0 +1,18 @@
+package com.ScreenShot;
+
+import org.openqa.selenium.WebDriver;
+
+public class Bing_Screenshot {
+
+	public static void main(String[] args) {
+		
+	WebDriver driver=null;
+	String url="htp://bing.com";
+	
+	System.setProperty("webdriver.chrome.driver", "./Driverfiles/chromedriver.exe");
+	driver=new chromedriver();
+	driver.get(url);
+	
+	}
+
+}

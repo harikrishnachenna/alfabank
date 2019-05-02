@@ -1,0 +1,31 @@
+package PageObjectModel;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+public class Welcome_Mercury_Tours {
+	
+	//this class called as object repository class
+       
+	//<a href="mercurysignon.php">SIGN-ON</a>
+	
+	@FindBy(linkText="SIGN-ON")
+	
+	WebElement SINGON;
+	
+	public void signon(){
+		SINGON.click();
+		
+	}
+	
+	         
+	
+	
+	
+	
+	
+	
+	
+	
+
+}

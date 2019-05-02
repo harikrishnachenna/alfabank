@@ -1,0 +1,16 @@
+package Demo;
+
+import org.openqa.selenium.WebDriver;
+
+public class Demo {
+
+	public static void main(String[] args) {
+		
+		WebDriver driver=null;
+		String url="http:google.com";
+		
+		System.setProperty("driver.chrome.driver", "./Driverfiles/chromedriver.exe");
+
+	}
+
+}

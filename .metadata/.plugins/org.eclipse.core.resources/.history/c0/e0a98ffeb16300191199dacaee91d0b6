@@ -1,0 +1,29 @@
+package com.Annotations;
+
+import org.testng.annotations.Test;
+
+public class TestNG_DependentOnMethods_Login {
+	
+	@Test
+	public void LoginTest() {
+		System.out.println("Login Test");
+		int i=10/0;
+	}
+	
+	@Test
+	public void HomepageTest() {
+		System.out.println("Homepage Test");
+	
+	}
+	
+	@Test
+	public void SearchPageTest() {
+		System.out.println("Searchpage Test");
+	
+	}
+	@Test
+	public void Reg_pageTest() {
+		System.out.println("Reg_page Test");
+	
+	
+}
